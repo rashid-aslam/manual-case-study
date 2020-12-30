@@ -1,0 +1,382 @@
+
+:root {
+  --tealish: #34d1d1;
+  --brownish-grey-50: rgba(108, 108, 108, 0.5);
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.headerLayer {
+  width: 100%;
+  height: 680px;
+  background-image: url(/img/hair-cat-header.jpg);
+}
+
+.manual-symblol-position {
+  margin: 30px 0 0 90px;
+}
+
+.manual-symblol-large {
+  margin-left: 20px;
+  margin-bottom: 82px;
+  width: 80px;
+  height: 75px;
+}
+
+table.footer-boxes {
+  height: 300px;
+}
+
+table.footer-boxes td {
+  width: 200px;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+
+.hairCat-header {
+  width: 1280px;
+  height: 680px;
+  margin: 0 0 80px;
+  padding: 30px 600px 120px 80px;
+  object-fit: contain;
+}
+
+.BE-GOOD-TO-YOURSELF {
+  width: 600px;
+  height: 200px;
+  margin: 104.6px 0 0 80px;
+  font-family: Montserrat;
+  font-size: 82px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #0c3c3d;
+  text-transform: uppercase;
+}
+
+.Were-working-around {
+  width: 400px;
+  height: 80px;
+  margin: 22px 190px 38px 80px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #0c3c3d;
+}
+
+.Rectangle-button {
+  width: 200px;
+  height: 48px;
+  margin: 38px 390px 0 90px;
+  padding: 17px 37px 16px 38px;
+  border-radius: 49.5px;
+  box-shadow: 0 10px 30px -20px rgba(0, 0, 0, 0.5);
+  background-color: var(--tealish);
+  text-transform: uppercase;
+}
+
+.What-we-can-help-wit {
+  width: 361px;
+  height: 48px;
+  margin: 80px 243px 60px 460px;
+  font-family: Helvetica;
+  font-size: 36px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0c3c3d;
+}
+
+.hair-photo-12x {
+  width: 400px;
+  height: 480px;
+  margin: 0 80px 41px 0;
+  object-fit: contain;
+}
+
+.zero-one-grey {
+  width: 473px;
+  height: 520px;
+  margin: 1px 56px 0 262px;
+  padding: 162px 167px 343px 218px;
+  font-family: Montserrat;
+  font-size: 427px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #eeeeee;
+}
+
+.HAIR-LOSS-group {
+  margin-left: 80px;
+  float: left;
+}
+
+.HAIR-LOSS {
+  width: 88px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: var(--tealish);
+}
+
+.Hair-loss-neednt-be-HEADING {
+  width: 311px;
+  height: 64px;
+  margin: 195px 0 12px 80px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #0c3c3d;
+}
+
+.Hair-loss-neednt-be {
+  width: 300px;
+  height: 132px;
+  margin: 12px 11px 118px 80px;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  color: #0c3c3d;
+}
+
+.zero-two-grey {
+  width: 559px;
+  height: 520px;
+  margin: 0 289px 0 0;
+  padding: 185px 188px 139px 60px;
+  font-family: Montserrat;
+  font-size: 427px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #eeeeee;
+}
+
+.Erectile-Dysfunction {
+  width: 200px;
+  height: 15px;
+  margin: 0 0 17px 111px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-align: right;
+  color: var(--tealish);
+}
+
+.Erections-can-be-a-t {
+  width: 311px;
+  height: 64px;
+  margin: 17px 0 12px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0c3c3d;
+}
+
+.There-are-plenty-of {
+  width: 300px;
+  height: 88px;
+  margin: 12px 0 0 11px;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0c3c3d;
+}
+
+.Rectangle-footer {
+  width: 1280px;
+  height: 396px;
+  margin: 80px 0 0;
+  padding: 0 40px 27px;
+  background-color: #e5f5f4;
+}
+
+.PRODUCT {
+  width: 78px;
+  height: 15px;
+  margin: 0 23px 17px 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: var(--tealish);
+}
+
+.COMPANY {
+  width: 81px;
+  height: 15px;
+  margin: 0 20px 17px 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: var(--tealish);
+}
+
+.INFO {
+  width: 40px;
+  height: 15px;
+  margin: 0 87px 17px 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: var(--tealish);
+}
+
+.FOLLOW-US {
+  width: 95px;
+  height: 15px;
+  margin: 0 16px 28px 0;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: var(--tealish);
+}
+
+.Popular-Trending-Gui {
+  width: 101px;
+  height: 144px;
+  margin: 17px 0 0;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  color: #0c3c3d;
+}
+
+.Press-Releases-Missi {
+  width: 101px;
+  height: 144px;
+  margin: 17px 0 0;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  color: #0c3c3d;
+}
+
+.Support-Customer-Ser {
+  width: 127px;
+  height: 108px;
+  margin: 17px 0 36px;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  color: #0c3c3d;
+}
+
+.Shape-f {
+  width: 9.2px;
+  height: 19px;
+  object-fit: contain;
+  background-color: #0c3c3d;
+}
+
+.Shape-t {
+  width: 21px;
+  height: 16px;
+  object-fit: contain;
+  background-color: #0c3c3d;
+}
+
+.Shape-in {
+  width: 20px;
+  height: 18px;
+  object-fit: contain;
+  background-color: #0c3c3d;
+}
+
+.Line {
+  width: 1200px;
+  height: 1px;
+  margin: 66px 0 26px;
+  opacity: 0.3;
+  border: solid 1px #6c6c6c;
+}
+
+.copy-right-text {
+  width: 196px;
+  height: 22px;
+  margin: auto;
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--brownish-grey-50);
+}
