@@ -9,7 +9,7 @@ import LandingPage from '../components/landing';
 const IndexPage = () => {
   return (
     <React.Fragment>
-      <SEO title="The Quiz Page" />
+      <SEO title="Manual - Bed Good To Yourself - Take The Quiz" />
       <LandingPage />
     </React.Fragment>
   );

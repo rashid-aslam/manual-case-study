@@ -28,9 +28,10 @@ const LandingPage = () => {
 
       <div className="content-area">
         <div className="What-we-can-help-wit">What we can help with</div>
-        <div className="">
-          {/* <span className="zero-one-grey">01</span> */}
-          <span className="HAIR-LOSS-group">
+        <section className="hair-loss-section">
+          <div className="zero-one-grey">01</div>
+          <img src="img/hair-photo-1-2-x.jpg" srcSet="img/hair-photo-1-2-x@2x.jpg 2x, img/hair-photo-1-2-x@3x.jpg 3x" className="hair-photo-12x hair-photo-position" />
+          <div className="HAIR-LOSS-group">
             <div className="HAIR-LOSS">Hair Loss</div>
             <div className="Hair-loss-neednt-be-HEADING">Hair loss needn’t be irreversible. We can help!</div>
             <div className="Hair-loss-neednt-be">Hair loss needn’t be irreversible. 
@@ -39,19 +40,18 @@ const LandingPage = () => {
               That’s the bad guy behind hair loss. 
               And you can keep him at bay. 
               The choice is yours.</div>
-          </span>
-          <img src="img/hair-photo-1-2-x.jpg" srcSet="img/hair-photo-1-2-x@2x.jpg 2x, img/hair-photo-1-2-x@3x.jpg 3x" className="hair-photo-12x" />
-        </div>
+          </div>
+        </section>
 
-        <div className="">
-          {/* <span className="zero-one-grey">01</span> */}
-          <span className="HAIR-LOSS-group">
+        <section className="ED-section">
+          <img src="img/sex-photo-1-2-x.jpg" srcSet="img/sex-photo-1-2-x@2x.jpg 2x, img/sex-photo-1-2-x@3x.jpg 3x" className="sex-photo-12x sex-photo-position" />
+          <div className="zero-two-grey">02</div>
+          <div className="ED-group">
             <div className="Erectile-Dysfunction">Erectile Dysfunction</div>
             <div className="Erections-can-be-a-t">Erections can be a tricky thing. But no need to feel down!</div>
             <div className="There-are-plenty-of">There are plenty of reasons why you might be having difficulty in the erection department. We can help you figure out possible reasons why. And prescribe a pill if needed.</div>
-          </span>
-          <img src="img/sex-photo-1-2-x.jpg" srcSet="img/sex-photo-1-2-x@2x.jpg 2x, img/sex-photo-1-2-x@3x.jpg 3x" className="sex-photo-12x" />
-        </div>
+          </div>
+        </section>
       </div>
       
       <div className="Rectangle-footer">
@@ -88,9 +88,9 @@ const LandingPage = () => {
             </td>
             <td>
               <span className="FOLLOW-US">FOLLOW US</span>
-              <div>
-                <img src="img/shape-f.svg" className="Shape-f" />&nbsp;&nbsp;
-                <img src="img/shape-t.svg" className="Shape-t" />&nbsp;&nbsp;
+              <div className="social-box">
+                <img src="img/shape-f.svg" className="Shape-f" />
+                <img src="img/shape-t.svg" className="Shape-t" />
                 <img src="img/shape-in.svg" className="Shape-in" />
               </div>
             </td>

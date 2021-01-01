@@ -4,6 +4,10 @@
   --brownish-grey-50: rgba(108, 108, 108, 0.5);
 }
 
+a, button {
+  cursor: pointer;
+}
+
 .container {
   width: 1280px;
   margin: 0 auto;
@@ -21,24 +25,40 @@
 }
 
 .manual-symblol-large {
-  margin-left: 20px;
-  margin-bottom: 82px;
+  margin-left: 38px;
+  margin-top: 8px;
   width: 80px;
   height: 75px;
 }
 
 table.footer-boxes {
-  height: 300px;
+  height: 260px;
 }
 
 table.footer-boxes td {
-  width: 200px;
+  width: 160px;
+  vertical-align: top;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-.invisible {
-  visibility: hidden;
+.social-box {
+  margin: 28px 0;
 }
 
+.hair-loss-section {
+  position: relative;
+}
+
+.hair-photo-position {
+  position: absolute;
+  left: 264px;
+}
+
+.sex-photo-position {
+  position: absolute;
+  left: 664px;
+}
 
 .hairCat-header {
   width: 1280px;
@@ -78,14 +98,31 @@ table.footer-boxes td {
 }
 
 .Rectangle-button {
-  width: 200px;
+  width: 203px;
   height: 48px;
   margin: 38px 390px 0 90px;
   padding: 17px 37px 16px 38px;
   border-radius: 49.5px;
   box-shadow: 0 10px 30px -20px rgba(0, 0, 0, 0.5);
   background-color: var(--tealish);
-  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: initial;
+  cursor: pointer;
+}
+
+.TAKE-THE-QUIZ {
+  width: 125px;
+  height: 15px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  color: #ffffff;
 }
 
 .What-we-can-help-wit {
@@ -113,8 +150,8 @@ table.footer-boxes td {
 .zero-one-grey {
   width: 473px;
   height: 520px;
-  margin: 1px 56px 0 262px;
-  padding: 162px 167px 343px 218px;
+  /* margin: 1px 56px 0 262px; */
+  /* padding: 162px 167px 343px 218px; */
   font-family: Montserrat;
   font-size: 427px;
   font-weight: bold;
@@ -123,11 +160,15 @@ table.footer-boxes td {
   line-height: normal;
   letter-spacing: normal;
   color: #eeeeee;
+  position: absolute;
+  left: 526px;
+  z-index: -1;
 }
 
 .HAIR-LOSS-group {
-  margin-left: 80px;
-  float: left;
+  width: 350px;
+  margin: auto 745px;
+  padding-top: 163px;
 }
 
 .HAIR-LOSS {
@@ -146,7 +187,7 @@ table.footer-boxes td {
 .Hair-loss-neednt-be-HEADING {
   width: 311px;
   height: 64px;
-  margin: 195px 0 12px 80px;
+  margin: 17px 0 12px 0;
   font-family: Helvetica;
   font-size: 22px;
   font-weight: normal;
@@ -160,8 +201,8 @@ table.footer-boxes td {
 .Hair-loss-neednt-be {
   width: 300px;
   height: 132px;
-  margin: 12px 11px 118px 80px;
-  font-family: OpenSans;
+  margin: 12px 11px 118px 0;
+  font-family: sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -171,11 +212,22 @@ table.footer-boxes td {
   color: #0c3c3d;
 }
 
+.ED-section {
+  position: relative;
+  padding-top: 40px;
+}
+
+.ED-group {
+  width: 350px;
+  margin: auto 287px;
+  padding-top: 163px;
+}
+
 .zero-two-grey {
   width: 559px;
   height: 520px;
-  margin: 0 289px 0 0;
-  padding: 185px 188px 139px 60px;
+  /* margin: 0 289px 0 0; */
+  /* padding: 185px 188px 139px 60px; */
   font-family: Montserrat;
   font-size: 427px;
   font-weight: bold;
@@ -184,6 +236,9 @@ table.footer-boxes td {
   line-height: normal;
   letter-spacing: normal;
   color: #eeeeee;
+  position: absolute;
+  left: 216px;
+  z-index: -1;
 }
 
 .Erectile-Dysfunction {
@@ -220,7 +275,7 @@ table.footer-boxes td {
   width: 300px;
   height: 88px;
   margin: 12px 0 0 11px;
-  font-family: OpenSans;
+  font-family: sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -234,8 +289,8 @@ table.footer-boxes td {
 .Rectangle-footer {
   width: 1280px;
   height: 396px;
-  margin: 80px 0 0;
-  padding: 0 40px 27px;
+  margin: 217px 0 0;
+  padding: 60px 40px 27px;
   background-color: #e5f5f4;
 }
 
@@ -341,21 +396,23 @@ table.footer-boxes td {
   width: 9.2px;
   height: 19px;
   object-fit: contain;
-  background-color: #0c3c3d;
+  /* background-color: #0c3c3d; */
 }
 
 .Shape-t {
   width: 21px;
   height: 16px;
   object-fit: contain;
-  background-color: #0c3c3d;
+  margin-left: 32px;
+  /* background-color: #0c3c3d; */
 }
 
 .Shape-in {
   width: 20px;
   height: 18px;
   object-fit: contain;
-  background-color: #0c3c3d;
+  margin-left: 32px;
+  /* background-color: #0c3c3d; */
 }
 
 .Line {
@@ -370,7 +427,7 @@ table.footer-boxes td {
   width: 196px;
   height: 22px;
   margin: auto;
-  font-family: OpenSans;
+  font-family: sans-serif;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
