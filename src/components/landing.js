@@ -18,6 +18,7 @@ const LandingPage = () => {
   return (
     <div className="container">
       <div className="headerLayer">
+        {/* <img src="img/hair-cat-header.jpg" srcSet="img/hair-cat-header@2x.jpg 2x, img/hair-cat-header@3x.jpg 3x" alt="hair category header image" className="hairCat-header" /> */}
         <img src="img/manual-symblol.svg" className="manual-symblol manual-symblol-position" />
         <div className="BE-GOOD-TO-YOURSELF">be good to yourself</div>
         <div className="Were-working-around">We’re working around the clock to bring you a holistic approach to your wellness. From top to bottom, inside and out.</div>
@@ -30,7 +31,7 @@ const LandingPage = () => {
         <div className="What-we-can-help-wit">What we can help with</div>
         <section className="hair-loss-section">
           <div className="zero-one-grey">01</div>
-          <img src="img/hair-photo-1-2-x.jpg" srcSet="img/hair-photo-1-2-x@2x.jpg 2x, img/hair-photo-1-2-x@3x.jpg 3x" className="hair-photo-12x hair-photo-position" />
+          <img src="img/hair-photo-1-2-x.jpg" srcSet="img/hair-photo-1-2-x@2x.jpg 2x, img/hair-photo-1-2-x@3x.jpg 3x" alt="hair photo" className="hair-photo-12x hair-photo-position" />
           <div className="HAIR-LOSS-group">
             <div className="HAIR-LOSS">Hair Loss</div>
             <div className="Hair-loss-neednt-be-HEADING">Hair loss needn’t be irreversible. We can help!</div>
@@ -44,7 +45,7 @@ const LandingPage = () => {
         </section>
 
         <section className="ED-section">
-          <img src="img/sex-photo-1-2-x.jpg" srcSet="img/sex-photo-1-2-x@2x.jpg 2x, img/sex-photo-1-2-x@3x.jpg 3x" className="sex-photo-12x sex-photo-position" />
+          <img src="img/sex-photo-1-2-x.jpg" srcSet="img/sex-photo-1-2-x@2x.jpg 2x, img/sex-photo-1-2-x@3x.jpg 3x" alt="intimacy photo" className="sex-photo-12x sex-photo-position" />
           <div className="zero-two-grey">02</div>
           <div className="ED-group">
             <div className="Erectile-Dysfunction">Erectile Dysfunction</div>
